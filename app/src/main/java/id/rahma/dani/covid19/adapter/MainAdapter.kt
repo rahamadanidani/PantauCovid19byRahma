@@ -10,7 +10,7 @@ import id.rahma.dani.covid19.model.Countries
 import java.text.DecimalFormat
 import java.util.*
 import kotlin.collections.ArrayList
-
+//kelas ini berfungsi untuk tampilan di recyclerview
 class MainAdapter: RecyclerView.Adapter<MainAdapter.ListViewHolder>() {
     private val countriesList = ArrayList<Countries>()
     private var onItemClickCallback: OnItemClickCallback? = null
