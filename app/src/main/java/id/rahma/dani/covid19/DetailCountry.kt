@@ -23,7 +23,7 @@ import java.util.*
 class DetailCountry : AppCompatActivity() {
     private lateinit var binding: ActivityDetailCountryBinding
     private lateinit var viewModel: DetailViewModel
-    companion object{
+    companion object{  // data berikut ini merupakan data atau repository yang akan tersimpan pada saat aplikasi dijalankan.
         const val EXTRA_SLUG = "slug"
         const val EXTRA_COUNTRY_CODE = "country_code"
         const val EXTRA_COUNTRY = "country"
